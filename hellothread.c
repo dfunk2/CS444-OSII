@@ -1,14 +1,10 @@
-/*Denise Funk
-CS 444
-April 1st, 2025
-*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include <pthread.h>
 
 #define array_size 5
-int array[4] = {0};
+int array[5] = {0};
 
 void *thread(void* arg){
     //threads will print out an array of 0-4 prefixed by thread name 
